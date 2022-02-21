@@ -21,7 +21,6 @@ class MainClock(QtWidgets.QMainWindow):
         timer.timeout.connect(self.insert_today)
         timer.start(1000)
 
-
     def insert_now(self):
         """
         Insere hora atual do sistema na GUI

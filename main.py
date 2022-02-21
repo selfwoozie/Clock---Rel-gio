@@ -36,6 +36,7 @@ class MainClock(QtWidgets.QMainWindow):
         today = self.cls_clock.get_today()
         self.date_label.setText(str(today))
 
+
 app = QtWidgets.QApplication(sys.argv)
 window = MainClock()
 window.show()
